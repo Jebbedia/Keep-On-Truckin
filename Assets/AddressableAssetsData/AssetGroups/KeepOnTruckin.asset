@@ -33,6 +33,16 @@ MonoBehaviour:
     m_SerializedLabels:
     - parts_data
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ea79e4d4bf6f00a438387a6f1d835463
+    m_Address: KeepOnTruckin_truck_tank_hydrogen_mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 63f57938b3e34494c90457af1ab2dff9
+    m_Address: KeepOnTruckin_truck_tank_monopropellant_mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 262055914f3d8df48be2771551a56a48, type: 2}
   m_SchemaSet:

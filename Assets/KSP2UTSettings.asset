@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: KSP2UTSettings
   m_EditorClassIdentifier: 
   ignoredFiles: []
-  savedBuildPath: D:/KSP2/Mods/KSP2/KeepOnTruckin.zip
+  savedBuildPath: D:/KSP2/Mods/Safarte/KeepOnTruckin.zip
   savedBuildMode: Everything
   savedModAddressablesPath: D:/SteamLibrary/steamapps/common/Kerbal Space Program
     2/BepInEx/plugins/KeepOnTruckin
