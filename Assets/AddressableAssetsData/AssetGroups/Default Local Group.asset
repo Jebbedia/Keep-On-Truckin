@@ -15,16 +15,11 @@ MonoBehaviour:
   m_GroupName: Default Local Group
   m_Data:
     m_SerializedData: []
-  m_GUID: 33d6d6bf2acc33148b1b678114061034
-  m_SerializeEntries:
-  - m_GUID: 134414d154f760c40acb514c899fde84
-    m_Address: Assets/Parts/bulldog_battery.prefab
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
+  m_GUID: 93316ebad56e39842a79b72473f80bff
+  m_SerializeEntries: []
   m_ReadOnly: 0
-  m_Settings: {fileID: 11400000, guid: bc1f343af1c0aae46bc64d83a91eb19b, type: 2}
+  m_Settings: {fileID: 11400000, guid: 262055914f3d8df48be2771551a56a48, type: 2}
   m_SchemaSet:
     m_Schemas:
-    - {fileID: 11400000, guid: 783b040b414a1cf48884d87cbf1c5aba, type: 2}
-    - {fileID: 11400000, guid: 6cbb8f899eba8e94385f9eba40fc52bc, type: 2}
+    - {fileID: 11400000, guid: ee99afba9965e54418c89077199b84e3, type: 2}
+    - {fileID: 11400000, guid: 18d9ee0d4bc21454aadbef5ba7ad6c16, type: 2}

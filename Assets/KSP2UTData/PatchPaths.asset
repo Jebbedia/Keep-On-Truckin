@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: PatchPaths
   m_EditorClassIdentifier: 
   Keys:
-  - bulldog_battery
+  - KeepOnTruckin_truck_tank
   Values:
   - plugin_template/patches/%NAME%.patch

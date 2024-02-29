@@ -87,3 +87,6 @@ crashlytics-build.properties
 # ThunderKit package
 /[Aa]ssets/ThunderKitSettings
 /[Aa]ssets/ThunderKitSettings.meta
+
+# KSP2 Unity Tools Build
+/KSP2UnityToolsTempBuild

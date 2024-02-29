@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c1530b39010b4531bb0844b4e47f1cf4, type: 3}
   m_Name: KSP2ModInfo
   m_EditorClassIdentifier: 
-  id: sampleMod
-  name: Sample Mod
-  author: nobody
-  description: A sample mod for KSP2
+  id: KeepOnTruckin
+  name: Keep On Truckin'
+  author: Rafael, Safarte
+  description: 
   version: 0.1.0
   versionCheck: 
   minKsp2Version: '*'
@@ -23,6 +23,6 @@ MonoBehaviour:
   source: 
   dependencies:
   - Id: com.github.x606.spacewarp
-    Min: 1.5.1
+    Min: 1.9.4
     Max: '*'
   incompatibilities: []
