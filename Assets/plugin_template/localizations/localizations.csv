@@ -1,0 +1,6 @@
+Key,Type,Desc,English,French
+KeepOnTruckin/Variants/TankType,Text,,Tank Type,Type de Réservoir
+KeepOnTruckin/Variants/ForeTube,Text,,Fore Tube,Tube Avant
+KeepOnTruckin/Variants/AftTube,Text,,Aft Tube,Tube Arrière
+KeepOnTruckin/Variants/Long,Text,,Long,Long
+KeepOnTruckin/Variants/Short,Text,,Short,Court

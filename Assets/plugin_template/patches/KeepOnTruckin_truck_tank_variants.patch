@@ -1,0 +1,156 @@
+@use "VSwift:*";
+
+:parts #KeepOnTruckin_truck_tank {
+  @include part-switch() {
+    +TankType {
+      VariantSetLocalizationKey: "KeepOnTruckin/Variants/TankType";
+      +Methalox {
+        VariantLocalizationKey: "Resource/DisplayName/Methalox";
+      }
+      +MonoPropellant {
+        VariantLocalizationKey: "Resource/DisplayName/MonoPropellant";
+        +MaterialSwapper {
+          Swaps: {
+            KeepOnTruckin_truck_tank_methalox_mat: "addressables://KeepOnTruckin_truck_tank_monopropellant_mat"
+          };
+        }
+        +ResourceContainerAdder {
+          Containers: [
+            {
+              Name: "MonoPropellant",
+              CapacityUnits: 2.0,
+              InitialUnits: 2.0
+            }
+          ];
+        }
+        +ResourceContainerRemover {
+          Containers: [Methane, Oxidizer];
+        }
+      }
+      +Hydrogen {
+        VariantLocalizationKey: "Resource/DisplayName/Hydrogen";
+        +MaterialSwapper {
+          Swaps: {
+            KeepOnTruckin_truck_tank_methalox_mat: "addressables://KeepOnTruckin_truck_tank_hydrogen_mat"
+          };
+        }
+        +ResourceContainerAdder {
+          Containers: [
+            {
+              Name: "Hydrogen",
+              CapacityUnits: 1.2,
+              InitialUnits: 1.2
+            }
+          ];
+        }
+        +ResourceContainerRemover {
+          Containers: [Methane, Oxidizer];
+        }
+      }
+    }
+    +ForeTube {
+      VariantSetLocalizationKey: "KeepOnTruckin/Variants/ForeTube";
+      +Long {
+        VariantLocalizationKey: "KeepOnTruckin/Variants/Long";
+        +TransformActivator {
+          Transforms: [
+            "col_tube_fore",
+            "Fore Long Tube"
+          ];
+        }
+        +AttachNodeAdder {
+          +front {
+            Size: 1.0;
+            VisualSize: 1.0;
+            Position: {
+              X: 0.0,
+              Y: 1.395,
+              Z: 0.0
+            };
+            Orientation: {
+              X: 0.0,
+              Y: 1.0,
+              Z: 0.0
+            };
+          }
+        }
+      }
+      +Short {
+        VariantLocalizationKey: "KeepOnTruckin/Variants/Short";
+        +TransformActivator {
+          Transforms: [
+            "Fore Short Tube"
+          ];
+        }
+        +AttachNodeAdder {
+          +front {
+            Size: 1.0;
+            VisualSize: 1.0;
+            Position: {
+              X: 0.0,
+              Y: 1.23,
+              Z: 0.0
+            };
+            Orientation: {
+              X: 0.0,
+              Y: 1.0,
+              Z: 0.0
+            };
+          }
+        }
+      }
+    }
+    +AftTube {
+      VariantSetLocalizationKey: "KeepOnTruckin/Variants/AftTube";
+      +Long {
+        VariantLocalizationKey: "KeepOnTruckin/Variants/Long";
+        +TransformActivator {
+          Transforms: [
+            "col_tube_aft",
+            "Aft Long Tube"
+          ];
+        }
+        +AttachNodeAdder {
+          +back {
+            Size: 1.0;
+            VisualSize: 1.0;
+            Position: {
+              X: 0.0,
+              Y: -1.395,
+              Z: 0.0
+            };
+            Orientation: {
+              X: 0.0,
+              Y: -1.0,
+              Z: 0.0
+            };
+          }
+        }
+      }
+      +Short {
+        VariantLocalizationKey: "KeepOnTruckin/Variants/Short";
+        +TransformActivator {
+          Transforms: [
+            "Aft Short Tube"
+          ];
+        }
+        +AttachNodeAdder {
+          +back {
+            Size: 1.0;
+            VisualSize: 1.0;
+            Position: {
+              X: 0.0,
+              Y: -1.23,
+              Z: 0.0
+            };
+            Orientation: {
+              X: 0.0,
+              Y: -1.0,
+              Z: 0.0
+            };
+          }
+        }
+      }
+    }
+  }
+}

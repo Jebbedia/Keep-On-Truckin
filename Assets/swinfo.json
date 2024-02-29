@@ -1,0 +1,38 @@
+{
+  "spec": "2.0",
+  "mod_id": "KeepOnTruckin",
+  "name": "Keep On Truckin'",
+  "author": "Rafael, Safarte",
+  "description": "",
+  "source": "",
+  "version": "0.1.0",
+  "version_check": "",
+  "ksp2_version": {
+    "min": "0.2.0",
+    "max": "*"
+  },
+  "dependencies": [
+    {
+      "id": "com.github.x606.spacewarp",
+      "version": {
+        "min": "1.9.4",
+        "max": "*"
+      }
+    },
+    {
+      "id": "PatchManager",
+      "version": {
+        "min": "0.7.0",
+        "max": "*"
+      }
+    },
+    {
+      "id": "VSwift",
+      "version": {
+        "min": "0.2.0",
+        "max": "*"
+      }
+    }
+  ],
+  "conflicts": []
+}

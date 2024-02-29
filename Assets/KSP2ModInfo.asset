@@ -18,11 +18,17 @@ MonoBehaviour:
   description: 
   version: 0.1.0
   versionCheck: 
-  minKsp2Version: '*'
+  minKsp2Version: 0.2.0
   maxKsp2Version: '*'
   source: 
   dependencies:
   - Id: com.github.x606.spacewarp
     Min: 1.9.4
+    Max: '*'
+  - Id: PatchManager
+    Min: 0.7.0
+    Max: '*'
+  - Id: VSwift
+    Min: 0.2.0
     Max: '*'
   incompatibilities: []
