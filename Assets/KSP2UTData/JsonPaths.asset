@@ -14,5 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Keys:
   - KeepOnTruckin_truck_tank
+  - KeepOnTruckin_truck_tank (1)
+  - KeepOnTruckin_crew
   Values:
+  - '%NAME%.json'
+  - '%NAME%.json'
   - '%NAME%.json'

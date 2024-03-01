@@ -2,6 +2,38 @@
 
 :parts #KeepOnTruckin_truck_tank {
   @include part-switch() {
+    PredefinedDynamicNodes: [
+      {
+        nodeID: front,
+        Size: 1,
+        VisualSize: 1,
+        Position: {
+          X: 0.0,
+          Y: 1.395,
+          Z: 0.0
+        },
+        Orientation: {
+          X: 0.0,
+          Y: 1.0,
+          Z: 0.0
+        },
+      },
+      {
+        nodeID: back,
+        Size: 1,
+        VisualSize: 1,
+        Position: {
+          X: 0.0,
+          Y: -1.395,
+          Z: 0.0
+        },
+        Orientation: {
+          X: 0.0,
+          Y: -1.0,
+          Z: 0.0
+        }
+      }
+    ];
     +TankType {
       VariantSetLocalizationKey: "KeepOnTruckin/Variants/TankType";
       +Methalox {
@@ -58,22 +90,6 @@
             "Fore Long Tube"
           ];
         }
-        +AttachNodeAdder {
-          +front {
-            Size: 1.0;
-            VisualSize: 1.0;
-            Position: {
-              X: 0.0,
-              Y: 1.395,
-              Z: 0.0
-            };
-            Orientation: {
-              X: 0.0,
-              Y: 1.0,
-              Z: 0.0
-            };
-          }
-        }
       }
       +Short {
         VariantLocalizationKey: "KeepOnTruckin/Variants/Short";
@@ -82,21 +98,14 @@
             "Fore Short Tube"
           ];
         }
-        +AttachNodeAdder {
-          +front {
-            Size: 1.0;
-            VisualSize: 1.0;
-            Position: {
-              X: 0.0,
-              Y: 1.23,
-              Z: 0.0
-            };
-            Orientation: {
-              X: 0.0,
-              Y: 1.0,
-              Z: 0.0
-            };
-          }
+        +AttachNodeMover {
+          MovedNodes: {
+            front: {
+              x: 0.0,
+              y: 1.23,
+              z: 0.0
+            }
+          };
         }
       }
     }
@@ -110,22 +119,6 @@
             "Aft Long Tube"
           ];
         }
-        +AttachNodeAdder {
-          +back {
-            Size: 1.0;
-            VisualSize: 1.0;
-            Position: {
-              X: 0.0,
-              Y: -1.395,
-              Z: 0.0
-            };
-            Orientation: {
-              X: 0.0,
-              Y: -1.0,
-              Z: 0.0
-            };
-          }
-        }
       }
       +Short {
         VariantLocalizationKey: "KeepOnTruckin/Variants/Short";
@@ -134,21 +127,14 @@
             "Aft Short Tube"
           ];
         }
-        +AttachNodeAdder {
-          +back {
-            Size: 1.0;
-            VisualSize: 1.0;
-            Position: {
-              X: 0.0,
-              Y: -1.23,
-              Z: 0.0
-            };
-            Orientation: {
-              X: 0.0,
-              Y: -1.0,
-              Z: 0.0
-            };
-          }
+        +AttachNodeMover {
+          MovedNodes: {
+            back: {
+              x: 0.0,
+              y: -1.23,
+              z: 0.0
+            }
+          };
         }
       }
     }
