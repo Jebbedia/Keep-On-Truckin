@@ -43,6 +43,22 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aea2b6b170048b04598d334fce02e672
+    m_Address: KeepOnTruckin_crew.json
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - parts_data
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ea9370e598bf0ca479a94e34deec7ff2
+    m_Address: KeepOnTruckin_crew.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2ee13363d3e90c44eb0a6b6e8af59e7d
+    m_Address: KeepOnTruckin_crew_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 262055914f3d8df48be2771551a56a48, type: 2}
   m_SchemaSet:
