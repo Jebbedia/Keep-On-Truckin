@@ -65,6 +65,66 @@
     },
     "attachNodes": [
       {
+        "nodeID": "front",
+        "NodeSymmetryGroupID": "",
+        "nodeType": "Stack",
+        "attachMethod": "FIXED_JOINT",
+        "IsMultiJoint": true,
+        "MultiJointMaxJoint": 3,
+        "MultiJointRadiusOffset": 0.94,
+        "MultiJointOnSingleAxis": false,
+        "SingleJointAxis": "X",
+        "MultiJointFullBreakStrength": false,
+        "position": {
+          "x": 0.0,
+          "y": 1.23,
+          "z": 0.0
+        },
+        "orientation": {
+          "x": 0.0,
+          "y": 1.0,
+          "z": 0.0
+        },
+        "size": 1,
+        "visualSize": 1.0,
+        "isResourceCrossfeed": true,
+        "isRigid": false,
+        "angularStrengthMultiplier": 1.0,
+        "contactArea": 0.0,
+        "overrideDragArea": 0.0,
+        "isCompoundJoint": false
+      },
+      {
+        "nodeID": "back",
+        "NodeSymmetryGroupID": "",
+        "nodeType": "Stack",
+        "attachMethod": "FIXED_JOINT",
+        "IsMultiJoint": true,
+        "MultiJointMaxJoint": 3,
+        "MultiJointRadiusOffset": 0.94,
+        "MultiJointOnSingleAxis": false,
+        "SingleJointAxis": "X",
+        "MultiJointFullBreakStrength": false,
+        "position": {
+          "x": 0.0,
+          "y": -1.23,
+          "z": 0.0
+        },
+        "orientation": {
+          "x": 0.0,
+          "y": -1.0,
+          "z": 0.0
+        },
+        "size": 1,
+        "visualSize": 1.0,
+        "isResourceCrossfeed": true,
+        "isRigid": false,
+        "angularStrengthMultiplier": 1.0,
+        "contactArea": 0.0,
+        "overrideDragArea": 0.0,
+        "isCompoundJoint": false
+      },
+      {
         "nodeID": "bottom",
         "NodeSymmetryGroupID": "",
         "nodeType": "Stack",
@@ -244,6 +304,89 @@
               "UpdateExposedArea": false,
               "ModuleType": "KSP.Modules.Module_Drag, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
               "DataType": "KSP.Modules.Data_Drag, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "IsActiveInStagingProp": {
+                "ContextKey": null,
+                "storedValue": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "Name": "PartComponentModule_LitPart",
+        "ComponentType": "KSP.Sim.impl.PartComponentModule_LitPart, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "BehaviourType": "KSP.Modules.Module_LitPart, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "ModuleData": [
+          {
+            "Name": "Data_LitPart",
+            "ModuleType": "KSP.Modules.Module_LitPart, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "DataType": "KSP.Modules.Data_LitPart, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "Data": null,
+            "DataObject": {
+              "$type": "KSP.Modules.Data_LitPart, Assembly-CSharp",
+              "LightToggle": {
+                "ContextKey": "LightToggle",
+                "storedValue": false
+              },
+              "HasEnoughResources": false,
+              "LightObjectNames": [],
+              "LightMaterialNames": [],
+              "Duration": 1.0,
+              "ColorGradientColors": [],
+              "ColorGradientTimes": [],
+              "RedColorGradient": {
+                "fCurve": {
+                  "keys": [],
+                  "length": 0,
+                  "preWrapMode": "ClampForever",
+                  "postWrapMode": "ClampForever"
+                },
+                "_minTime": 3.40282347E+38,
+                "_maxTime": -3.40282347E+38
+              },
+              "GreenColorGradient": {
+                "fCurve": {
+                  "keys": [],
+                  "length": 0,
+                  "preWrapMode": "ClampForever",
+                  "postWrapMode": "ClampForever"
+                },
+                "_minTime": 3.40282347E+38,
+                "_maxTime": -3.40282347E+38
+              },
+              "BlueColorGradient": {
+                "fCurve": {
+                  "keys": [],
+                  "length": 0,
+                  "preWrapMode": "ClampForever",
+                  "postWrapMode": "ClampForever"
+                },
+                "_minTime": 3.40282347E+38,
+                "_maxTime": -3.40282347E+38
+              },
+              "AlphaColorGradient": {
+                "fCurve": {
+                  "keys": [],
+                  "length": 0,
+                  "preWrapMode": "ClampForever",
+                  "postWrapMode": "ClampForever"
+                },
+                "_minTime": 3.40282347E+38,
+                "_maxTime": -3.40282347E+38
+              },
+              "DefaultActionGroup": "None",
+              "DefaultEnabledState": false,
+              "RequiredResourceName": "ElectricCharge",
+              "RequiredResourceThreshold": 1.0,
+              "LightIntensityMultiplier": 3.0,
+              "CurrentLightIntensity": 0.0,
+              "TargetLightIntensity": 0.0,
+              "DurationMultiplier": 0.0,
+              "IsTransitioning": false,
+              "Interpolation": 0.0,
+              "LightStateOnBlackout": false,
+              "ModuleType": "KSP.Modules.Module_LitPart, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "DataType": "KSP.Modules.Data_LitPart, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
               "IsActiveInStagingProp": {
                 "ContextKey": null,
                 "storedValue": false

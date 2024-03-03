@@ -65,6 +65,66 @@
     },
     "attachNodes": [
       {
+        "nodeID": "front",
+        "NodeSymmetryGroupID": "",
+        "nodeType": "Stack",
+        "attachMethod": "FIXED_JOINT",
+        "IsMultiJoint": true,
+        "MultiJointMaxJoint": 3,
+        "MultiJointRadiusOffset": 0.94,
+        "MultiJointOnSingleAxis": false,
+        "SingleJointAxis": "X",
+        "MultiJointFullBreakStrength": false,
+        "position": {
+          "x": 0.0,
+          "y": 1.2300000190734863,
+          "z": 0.0
+        },
+        "orientation": {
+          "x": 0.0,
+          "y": 1.0,
+          "z": 0.0
+        },
+        "size": 1,
+        "visualSize": 1.0,
+        "isResourceCrossfeed": true,
+        "isRigid": false,
+        "angularStrengthMultiplier": 1.0,
+        "contactArea": 0.0,
+        "overrideDragArea": 0.0,
+        "isCompoundJoint": false
+      },
+      {
+        "nodeID": "back",
+        "NodeSymmetryGroupID": "",
+        "nodeType": "Stack",
+        "attachMethod": "FIXED_JOINT",
+        "IsMultiJoint": true,
+        "MultiJointMaxJoint": 3,
+        "MultiJointRadiusOffset": 0.94,
+        "MultiJointOnSingleAxis": false,
+        "SingleJointAxis": "X",
+        "MultiJointFullBreakStrength": false,
+        "position": {
+          "x": 0.0,
+          "y": -1.23,
+          "z": 0.0
+        },
+        "orientation": {
+          "x": 0.0,
+          "y": -1.0,
+          "z": 0.0
+        },
+        "size": 1,
+        "visualSize": 1.0,
+        "isResourceCrossfeed": true,
+        "isRigid": false,
+        "angularStrengthMultiplier": 1.0,
+        "contactArea": 0.0,
+        "overrideDragArea": 0.0,
+        "isCompoundJoint": false
+      },
+      {
         "nodeID": "bottom",
         "NodeSymmetryGroupID": "",
         "nodeType": "Stack",
@@ -78,7 +138,7 @@
         "position": {
           "x": 0.0,
           "y": 0.0,
-          "z": 0.925
+          "z": 0.925000011920929
         },
         "orientation": {
           "x": 0.0,
@@ -108,7 +168,7 @@
         "position": {
           "x": 0.0,
           "y": 0.0,
-          "z": 0.925
+          "z": 0.925000011920929
         },
         "orientation": {
           "x": 0.0,
