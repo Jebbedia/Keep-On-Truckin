@@ -2,38 +2,6 @@
 
 :parts #KeepOnTruckin_truck_tank {
   @include part-switch() {
-    PredefinedDynamicNodes: [
-      {
-        nodeID: front,
-        Size: 1,
-        VisualSize: 1,
-        Position: {
-          X: 0.0,
-          Y: 1.395,
-          Z: 0.0
-        },
-        Orientation: {
-          X: 0.0,
-          Y: 1.0,
-          Z: 0.0
-        },
-      },
-      {
-        nodeID: back,
-        Size: 1,
-        VisualSize: 1,
-        Position: {
-          X: 0.0,
-          Y: -1.395,
-          Z: 0.0
-        },
-        Orientation: {
-          X: 0.0,
-          Y: -1.0,
-          Z: 0.0
-        }
-      }
-    ];
     +TankType {
       VariantSetLocalizationKey: "KeepOnTruckin/Variants/TankType";
       +Methalox {
@@ -77,64 +45,6 @@
         }
         +ResourceContainerRemover {
           Containers: [Methane, Oxidizer];
-        }
-      }
-    }
-    +ForeTube {
-      VariantSetLocalizationKey: "KeepOnTruckin/Variants/ForeTube";
-      +Long {
-        VariantLocalizationKey: "KeepOnTruckin/Variants/Long";
-        +TransformActivator {
-          Transforms: [
-            "col_tube_fore",
-            "Fore Long Tube"
-          ];
-        }
-      }
-      +Short {
-        VariantLocalizationKey: "KeepOnTruckin/Variants/Short";
-        +TransformActivator {
-          Transforms: [
-            "Fore Short Tube"
-          ];
-        }
-        +AttachNodeMover {
-          MovedNodes: {
-            front: {
-              x: 0.0,
-              y: 1.23,
-              z: 0.0
-            }
-          };
-        }
-      }
-    }
-    +AftTube {
-      VariantSetLocalizationKey: "KeepOnTruckin/Variants/AftTube";
-      +Long {
-        VariantLocalizationKey: "KeepOnTruckin/Variants/Long";
-        +TransformActivator {
-          Transforms: [
-            "col_tube_aft",
-            "Aft Long Tube"
-          ];
-        }
-      }
-      +Short {
-        VariantLocalizationKey: "KeepOnTruckin/Variants/Short";
-        +TransformActivator {
-          Transforms: [
-            "Aft Short Tube"
-          ];
-        }
-        +AttachNodeMover {
-          MovedNodes: {
-            back: {
-              x: 0.0,
-              y: -1.23,
-              z: 0.0
-            }
-          };
         }
       }
     }
