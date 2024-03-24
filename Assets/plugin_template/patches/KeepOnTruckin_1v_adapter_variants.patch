@@ -1,0 +1,47 @@
+@use "VSwift:*";
+
+:parts #KeepOnTruckin_1v_adapter {
+  @include part-switch() {
+    PredefinedDynamicNodes: [
+      {
+        nodeID: back,
+        Size: 1,
+        VisualSize: 1,
+        Position: {
+          X: 0.0,
+          Y: -0.168,
+          Z: 0.0
+        },
+        Orientation: {
+          X: 0.0,
+          Y: -1.0,
+          Z: 0.0
+        },
+      }
+    ];
+    +AdapterType {
+      VariantSetLocalizationKey: "KeepOnTruckin/Variants/AdapterType";
+      +Smooth {
+        VariantLocalizationKey: "KeepOnTruckin/Variants/AdapterType/Smooth";
+        +TransformActivator {
+          Transforms: ["KeepOnTruckin_1v_adapter_smooth"];
+        }
+      }
+      +Bare {
+        VariantLocalizationKey: "KeepOnTruckin/Variants/AdapterType/Bare";
+        +TransformActivator {
+          Transforms: ["KeepOnTruckin_1v_adapter"];
+        }
+        +AttachNodeMover {
+          MovedNodes: {
+            back: {
+              x: 0.0,
+              y: -0.11,
+              z: 0.0
+            }
+          };
+        }
+      }
+    }
+  }
+}
