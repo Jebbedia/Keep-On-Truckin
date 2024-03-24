@@ -1,0 +1,34 @@
+@use "VSwift:*";
+
+:parts #KeepOnTruckin_inline_adapter {
+  @include part-switch() {
+    +BottomStructure {
+      VariantSetLocalizationKey: "KeepOnTruckin/Variants/BottomStructure";
+      +On {
+        VariantLocalizationKey: "KeepOnTruckin/Variants/BottomStructure/On";
+        +TransformActivator {
+          Transforms: ["Bottom Structure"];
+        }
+        +AttachNodeAdder {
+          +bottom {
+            Size: 2;
+            VisualSize: 2;
+            Position: {
+              X: 0.0,
+              Y: 0.0,
+              Z: 0.925
+            };
+            Orientation: {
+              X: 0.0,
+              Y: 0.0,
+              Z: 1.0
+            };
+          }
+        }
+      }
+      +Off {
+        VariantLocalizationKey: "KeepOnTruckin/Variants/BottomStructure/Off";
+      }
+    }
+  }
+}

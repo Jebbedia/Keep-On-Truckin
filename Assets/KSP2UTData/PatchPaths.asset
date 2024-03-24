@@ -17,7 +17,19 @@ MonoBehaviour:
   - KeepOnTruckin_truck_tank (1)
   - KeepOnTruckin_crew
   - KeepOnTruckin_1v_adapter
+  - KeepOnTruckin_1v_adapter (1)
+  - KeepOnTruckin_inline_adapter
+  - KeepOnTruckin_fuelcell
+  - KeepOnTruckin_2v_adapter
+  - KeepOnTruckin_sas_rcs
+  - KeepOnTruckin_vtol
   Values:
+  - plugin_template/patches/%NAME%.patch
+  - plugin_template/patches/%NAME%.patch
+  - plugin_template/patches/%NAME%.patch
+  - plugin_template/patches/%NAME%.patch
+  - plugin_template/patches/%NAME%.patch
+  - plugin_template/patches/%NAME%.patch
   - plugin_template/patches/%NAME%.patch
   - plugin_template/patches/%NAME%.patch
   - plugin_template/patches/%NAME%.patch

@@ -70,6 +70,91 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: da6807095e5d7de4b8606a568d07e069
+    m_Address: KeepOnTruckin_1v_adapter_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f4e0e722c5cbab649a562f01fe6b370c
+    m_Address: KeepOnTruckin_inline_adapter.json
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - parts_data
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ef5ff51b33cb9ca4585ebd0a39d5a166
+    m_Address: KeepOnTruckin_inline_adapter_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 92f82e477dc1f6e4089740afee5b0ee2
+    m_Address: KeepOnTruckin_inline_adapter.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5191c7d2d36f6aa41bbba149392f87de
+    m_Address: KeepOnTruckin_fuelcell.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2abc224d4cfbd4641acf2e1b639a4102
+    m_Address: KeepOnTruckin_fuelcell.json
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - parts_data
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f87dc36b6d57c094abf46d705bcc11b7
+    m_Address: KeepOnTruckin_fuelcell_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c43c662023dcc8544999a446c5b8b255
+    m_Address: KeepOnTruckin_2v_adapter.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 14d2c97bb53ba43459370840d4a23288
+    m_Address: KeepOnTruckin_2v_adapter.json
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - parts_data
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d50d050e98b487444a57be2f1c021645
+    m_Address: KeepOnTruckin_2v_adapter_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aef67ea512906aa4c8a89a47a5215d63
+    m_Address: KeepOnTruckin_sas_rcs.json
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - parts_data
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 32294a6e675ccbf41975fd4384129a55
+    m_Address: KeepOnTruckin_sas_rcs_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1e16785647c38274cbca3ee3094d06a2
+    m_Address: KeepOnTruckin_sas_rcs.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1efc379ad1687d146b235e1cb5feae0d
+    m_Address: KeepOnTruckin_vtol.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b7289085afdd6d345a184b060b50a4e0
+    m_Address: KeepOnTruckin_vtol.json
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - parts_data
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f3f8fafab61e1924795b4742268332ca
+    m_Address: KeepOnTruckin_vtol_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 262055914f3d8df48be2771551a56a48, type: 2}
   m_SchemaSet:
